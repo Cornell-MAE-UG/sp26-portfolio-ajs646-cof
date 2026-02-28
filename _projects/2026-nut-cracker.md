@@ -1,7 +1,7 @@
----layout: project
-title: Macadamia Nutcracker (Lever Design)
-description: A hand-powered lever nutcracker designed to crack a macadamia shell using realistic grip-force constraints.
-image: /assets/images/spaceship-design.jpg
+---
+layout: project
+title: "Macadamia Nutcracker (Simple Lever Design)"
+image: assets/images/macadamia.jpg
 ---
 
 ## Problem Statement (Find)
@@ -101,5 +101,4 @@ Potential issues and improvements:
 - Nut slipping/ejection: use serrations or a high-friction insert and a cup/V-groove pocket to hold the nut securely.
 - Hand comfort/fatigue: use thicker, ergonomic grips and a slightly curved handle profile.
 - Nut-to-nut variability: if some nuts require higher-than-average force, increasing handle length (e.g., 26–30 cm) would increase jaw force without changing the jaw geometry.
-
 ---
