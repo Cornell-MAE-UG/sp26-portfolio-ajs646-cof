@@ -70,7 +70,7 @@ Choose:
 Now solve for handle length:
 - Lhandle ≥ 7.33 x 3.0 cm = 22.0 cm
 
-Select a clean final number:
+Select a larger final number to account for error:
 - Lhandle = 23 cm
 
 ---
@@ -101,4 +101,6 @@ Potential issues and improvements:
 - Nut slipping/ejection: use serrations or a high-friction insert and a cup/V-groove pocket to hold the nut securely.
 - Hand comfort/fatigue: use thicker, ergonomic grips and a slightly curved handle profile.
 - Nut-to-nut variability: if some nuts require higher-than-average force, increasing handle length (e.g., 26–30 cm) would increase jaw force without changing the jaw geometry.
+
+
 ---
