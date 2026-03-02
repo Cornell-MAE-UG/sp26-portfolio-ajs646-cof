@@ -63,7 +63,7 @@ Select a larger final number to account for error and hand size:
 
 ---
 
-### Step 4 — Check that the design meets the requirement
+### Step 4 — Check 
 Mechanical advantage:
 - MA = 20 / 3.0 = 6.67
 
