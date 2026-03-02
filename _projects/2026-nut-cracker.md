@@ -4,13 +4,13 @@ title: "Macadamia Nutcracker"
 image: assets/images/macadamia.jpg
 ---
 
-## Problem Statement (Find)
+## Problem Statement
 Design a simple lever nutcracker that can crack a macadamia nut. Determine handle length and nut placement so that a typical user can generate enough force to crack the nut.
 
-## Constraints & Inputs (Given)
-- Nut size (design diameter): ~250 mm
+## Constraints & Inputs
+- Nut size (design diameter): ~20 mm
 - Target shell cracking load (jaw force needed): ~2178.84 N (literature-reported average cracking load; Schrauf et al., 2008, appendix)
-- Assumed human input force: 350 N (combined)
+- Assumed human input force: 350 N
 
 Reference:
 - Schrauf et al. (2008). "Do capuchin monkeys use weight to select hammer tools?" Animal Cognition. (Use the appendix values for cracking load.) https://doi.org/10.1007/s10071-007-0131-2
