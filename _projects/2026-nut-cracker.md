@@ -17,25 +17,29 @@ Reference:
 
 ---
 ## Approach & Calculations
-### Step 1 — Model as a simple lever about the pivot
+### Step 1
 Assume the nutcracker works like a lever about the hinge:
 
 Let:
-- Fgrip = input force applied by the hands at the handles
+- Fgrip = input force applied by the hand at the handle
 - Fjaw = jaw force on the nut
-- Lhandle = distance from pivot to where the hands apply force
+- Lhandle = distance from pivot to where the hand applies force
 - Ljaw = distance from pivot to where the nut is contacted
+- Hhandle = distance from the bottom handle to top handle
+- Hjaw = diameter of standard macademia Nut
 
 - ΣM pivot = 0
 - Fgrip x Lhandle - Fjaw x Ljaw = 0
 - Fgrip x Lhandle ≈ Fjaw x Ljaw
 
 Mechanical advantage:
-- MA = Fjaw / Fgrop ≈ Lhandle / Ljaw
+- MA = Fjaw / Fgrip ≈ Lhandle / Ljaw
+
+![Nutcracker sketch]({{ "/assets/images/FBD-MacadamiaNut.jpeg" | relative_url }})
 
 ---
 
-### Step 2 — Compute the required mechanical advantage
+### Step 2
 We need the jaw force to reach the cracking load:
 
 - Required jaw force (cracking load) = 2178.84 N
@@ -44,13 +48,25 @@ We need the jaw force to reach the cracking load:
 So:
 - Fjaw / Fgrip = 2178.84 / 350 = 6.22
 
-This means the geometry must satisfy:
+This means:
 - Lhandle / Ljaw ≥ 6.22
 
 ---
 
-### Step 3 — Choose a practical jaw placement using nut size (25 mm)
-The nut is about 20 mm in diameter, so the nut must be able to sit in the pocket. Practical it should sit a bit further away to away room for a pocket.
+### Step 3 
+Using smilar triangles:
+
+![Nutcracker sketch]({{ "/assets/images/Dimenstion-MacadamiaNut.jpeg" | relative_url }})
+
+Lhandle / Ljaw = Hhandle / Hjaw
+6.22 cm ≥ Hhandle / Hjaw
+6.22 cm x 20 mm ≥ Hhandle
+12.54 cm ≥ Hhandle
+
+---
+
+### Step 4
+The nut is about 20 mm in diameter, so the nut must be able to sit in the pocket. It should sit a bit further away to make room for a pocket.
 
 Choose:
 - Ljaw = 3.0 cm
@@ -63,7 +79,7 @@ Select a larger final number to account for error and hand size:
 
 ---
 
-### Step 4 — Check 
+### Step 5 — Check 
 Mechanical advantage:
 - MA = 20 / 3.0 = 6.67
 
@@ -78,16 +94,8 @@ So this design should be able to crack a typical macadamia nut under these assum
 ---
 
 ## Usability Discussion
+A 20 cm handle length for a macadamia nutcracker is not a very realistic size for a standard handheld kitchen tool. Many common hand tools are closer to 15–19 cm, so 20 cm is on the larger side and could feel awkward to hold and operate comfortably while trying to crack a nut effectively.
 
-What works well:
-- 20 cm handles are realistic for a handheld kitchen tool and allow comfortable squeezing.
-- Placing the nut close to the pivot (3.0 cm) provides high mechanical advantage, so the user does not need extreme grip strength.
-- A jaw pocket sized for a 20 mm nut improves alignment and reduces slipping.
-
-Potential issues and improvements:
-- Pinch hazard near the hinge: add a simple hinge guard or spacer so fingers cannot get caught.
-- Nut slipping/ejection: use serrations or a high-friction insert and a cup/V-groove pocket to hold the nut securely.
-- Hand comfort/fatigue: use thicker, ergonomic grips and a slightly curved handle profile.
-- Nut-to-nut variability: if some nuts require higher-than-average force, increasing handle length (e.g., 23–35 cm) would increase jaw force without changing the jaw geometry.
+Additionally, having the handles positioned about 12.45 cm apart would make the tool harder to grasp, and could reduce control during use. By placing the nut close to the pivot it increases the mechanical advantage, which would helps generate higher jaw force. However, because the design has limited extra margin, it may not accommodate much variability in nut size or shell strength, meaning it might not work reliably for all macadamia nuts.
 
 ---
