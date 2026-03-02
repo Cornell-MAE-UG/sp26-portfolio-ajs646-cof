@@ -59,6 +59,7 @@ Using smilar triangles:
 ![Nutcracker sketch]({{ "/assets/images/Dimenstion-MacadamiaNut.jpeg" | relative_url }})
 
 Lhandle / Ljaw = Hhandle / Hjaw
+
 6.22 cm ≥ Hhandle / Hjaw
 6.22 cm x 20 mm ≥ Hhandle
 12.54 cm ≥ Hhandle
