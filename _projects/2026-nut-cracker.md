@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Macadamia Nutcracker (Simple Lever Design)"
+title: "Macadamia Nutcracker"
 image: assets/images/macadamia.jpg
 ---
 
@@ -35,7 +35,7 @@ Let:
 Mechanical advantage:
 - MA = Fjaw / Fgrip ≈ Lhandle / Ljaw
 
-![Nutcracker sketch]({{ "/assets/images/FBD-MacadamiaNut.jpeg" | relative_url }})
+<img src="{{ '/assets/images/FBD-MacadamiaNut.jpeg' | relative_url }}" alt="Nutcracker sketch" style="width:300px;">
 
 ---
 
@@ -56,12 +56,14 @@ This means:
 ### Step 3 
 Using smilar triangles:
 
-![Nutcracker sketch]({{ "/assets/images/Dimenstion-MacadamiaNut.jpeg" | relative_url }})
+<img src="{{ '/assets/images/Dimenstion-MacadamiaNut.jpeg' | relative_url }}" alt="Nutcracker sketch" style="width:300px;">
 
 Lhandle / Ljaw = Hhandle / Hjaw
 
 6.22 cm ≥ Hhandle / Hjaw
+
 6.22 cm x 20 mm ≥ Hhandle
+
 12.54 cm ≥ Hhandle
 
 ---
