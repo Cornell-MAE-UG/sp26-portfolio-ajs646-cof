@@ -12,19 +12,12 @@ permalink: /cv/
 
 ---
 
-#### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
-
----
-
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Biological Engineering*  
-  GPA: 3.6/4.0 | Graduation: May, 2028
+  *Bachelor of Science in Biological Engineering*  | Graduation: May, 2028
 
 - **The Spence School**  
-  *High School Diploma*  
-  GPA: 3.98/4.0 |Graduation: May, 2024
+  *High School Diploma* |Graduation: May, 2024
 
 ---
 
@@ -32,15 +25,6 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 - **Software:** SolidWorks  
 - **Programming:** Python, Java, MATLAB  
 - **Tools:** 3D Printing, Laser Cutting  
-
----
-
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2
-
 
 ---
 
