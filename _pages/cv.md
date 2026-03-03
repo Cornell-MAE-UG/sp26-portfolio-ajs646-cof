@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Alyssa Schwartz> - Curriculum Vitae
+title: Alyssa Schwartz - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
