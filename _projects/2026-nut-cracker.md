@@ -102,3 +102,9 @@ A 20 cm handle length for a macadamia nutcracker is not a very realistic size fo
 Additionally, having the handles positioned about 12.45 cm apart would make the tool harder to grasp, and could reduce control during use. By placing the nut close to the pivot it increases the mechanical advantage, which would helps generate higher jaw force. However, because the design has limited extra margin, it may not accommodate much variability in nut size or shell strength, meaning it might not work reliably for all macadamia nuts.
 
 ---
+
+#### Acknowledgements 
+
+I used ChatGPT to help edit my GitHub materials as well as the aforementioned article for values.
+
+---
