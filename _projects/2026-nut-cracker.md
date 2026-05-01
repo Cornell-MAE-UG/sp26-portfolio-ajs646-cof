@@ -128,7 +128,6 @@ The grip end is farthest from the hinge and has the least constrained. It experi
 
 The maximum elastic deflection occurs at the **grip end of the handle**, not at the nut contact point.
 
-
 ---
 
 #### Acknowledgements 
