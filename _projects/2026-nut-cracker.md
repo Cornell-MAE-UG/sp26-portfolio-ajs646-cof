@@ -103,7 +103,15 @@ Additionally, having the handles positioned about 12.45 cm apart would make the 
 
 ---
 
-### Maximum Elastic Deflection
+_projects/2026-nut-cracker.md
+
+
+---
+
+<details markdown="1">
+<summary><strong>Continue: Modeling the Handles as Flexible Beams</strong></summary>
+
+## Flexible Handle Beam Analysis
 
 ### The location of Maximum Elastic Deflection 
 The maximum elastic deflection occurs at the **free end of the handle**, where the user applies force — the **grip end** of the nutcracker.
@@ -127,6 +135,10 @@ The grip end is farthest from the hinge and has the least constrained. It experi
 ### Final Conclusion
 
 The maximum elastic deflection occurs at the **grip end of the handle**, not at the nut contact point.
+
+---
+
+</details>
 
 ---
 
