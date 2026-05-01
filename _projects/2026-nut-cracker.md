@@ -109,6 +109,7 @@ _projects/2026-nut-cracker.md
 ---
 
 <details markdown="1">
+
 <summary><strong>Continue: Modeling the Handles as Flexible Beams</strong></summary>
 
 ## Flexible Handle Beam Analysis
