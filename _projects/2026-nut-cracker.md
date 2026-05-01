@@ -103,6 +103,34 @@ Additionally, having the handles positioned about 12.45 cm apart would make the 
 
 ---
 
+### Maximum Elastic Deflection
+
+### The location of Maximum Elastic Deflection 
+The maximum elastic deflection occurs at the **free end of the handle**, where the user applies force — the **grip end** of the nutcracker.
+
+### Assumptions
+
+For this analysis, one handle is modeled as a flexible beam. The hinge end is treated as fixed, meaning so it cannot move or rotate. A downward force is applied at the grip, while the nut applies a force closer to the hinge. Only vertical forces are considered
+
+The two handles are symmetrically, so you can only analyze one.
+
+### Explanation
+
+The handle behaves like a beam fixed at one end which is loaded along the length. At the hinge, no deflection occurs.
+
+By moving away from the hinge, displacement adds up. Each point along the handle experiences bending from both the forces.
+
+The nut force creates a bending near the jaw region, however that location is close to the fixed support, so there is very limited distance for the handle to displacement.
+
+The grip end is farthest from the hinge and has the least constrained. It experiences the entire bending along the entire handle, which should result in the largest vertical displacement and thus deformation.
+
+### Final Conclusion
+
+The maximum elastic deflection occurs at the **grip end of the handle**, not at the nut contact point.
+
+
+---
+
 #### Acknowledgements 
 
 I used ChatGPT to help edit my GitHub materials as well as the aforementioned article for values.
