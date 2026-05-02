@@ -136,7 +136,7 @@ The maximum elastic deflection occurs at the **grip end of the handle**, not at 
 
 ### Deflection Analysis Using a Beam Table
 <p align="center">
-  <img src="{{ '/assets/images/beam-table.png' | relative_url }}" alt="Hollow cylindrical nutcracker handle design" width="500">
+  <img src="{{ '/assets/images/beam-table.jpeg' | relative_url }}" alt="Cantilever beam deflection table" width="700">
 </p>
 
 I used the standard cantilever beam deflection table. The hand force was modeled as a point load applied at the free end of a cantilever beam.
@@ -204,6 +204,10 @@ So the handle needs a flexural rigidity of at least:
 For the final beam design, I selected a **hollow cylindrical tube** made from **AZ80 magnesium alloy**.
 
 A hollow cylinder is a good  choice for a nutcracker handle because it is lightweight, comfortable to grip, and resists bending and twisting. Magnesium alloy is also good because it has a low specific weight while still having some elastic stiffness.
+
+<p align="center">
+  <img src="{{ '/assets/images/material-table.jpeg' | relative_url }}" alt="Material Property table" width="300">
+</p>
 
 From the material table:
 
