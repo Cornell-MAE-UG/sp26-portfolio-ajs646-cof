@@ -182,9 +182,9 @@ Since the handle length is **L = 0.20 m**:
 
 **δ<sub>allow</sub> = 4.0 mm**
 
-This:
+So:
 
-**0.004 m\(\ge \)δ<sub>max</sub> = 0.7338 / EI**
+**0.004 m <= δ<sub>max</sub> = 0.7338 / EI**
 
 **EI ≥ 0.7338 / 0.004**
 
@@ -252,9 +252,7 @@ As a percentage of the 200 mm handle length:
 
 **3.00 / 200 × 100 = 1.5%**
 
-As: **1.5% < 2.0%**
-
-the design passes the deflection requirement.
+As: **1.5% < 2.0%** the design passes the deflection requirement.
 
 ---
 
