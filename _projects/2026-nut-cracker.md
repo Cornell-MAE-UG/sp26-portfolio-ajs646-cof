@@ -135,67 +135,39 @@ The maximum elastic deflection occurs at the **grip end of the handle**, not at 
 ---
 
 ### Deflection Analysis Using a Beam Table
+### Deflection Analysis Using a Beam Table
 
-I used the this cantilever beam deflection table. The grip force was modeled as a point load applied at the free end of a cantilever beam.
+I used the standard cantilever beam deflection table. The hand force was modeled as a point load applied at the free end of a cantilever beam.
 
 For a cantilever beam with a point load at the free end, the maximum deflection is:
 
-\[
-\delta_grip = \frac{PL^3}{3EI}
-\]
+**δ<sub>grip</sub> = PL<sup>3</sup> / 3EI**
 
-The force from the nut is applied closer to the hinge at \(x=a\). So I used the same cantilever beam case over the shorter length \(a\), then extended the slope from the nut location to the grip end.
+The force from the nut is applied closer to the hinge at **x = a**, not at the free end. I used the same cantilever beam case over the shorter length **a**, then extended the slope from the nut location to the grip end.
 
-Thus the deflection at the grip caused by the nut force is:
+The deflection at the grip caused by the nut force is:
 
-\[
-\delta_jaw = \frac{Qa^2(3L-a)}{6EI}
-\]
+**δ<sub>jaw</sub> = Qa<sup>2</sup>(3L − a) / 6EI**
 
-Using the FBD from above
+Using the free-body diagram from above, the two deflections act in opposite directions:
 
-\[
-\delta_{\max} = \delta_grip- \delta_jaw
-\]
-
-\[
-\delta_{\max}
-=
-\frac{PL^3}{3EI}
--
-\frac{Qa^2(3L-a)}{6EI}
-\]
+**δ<sub>max</sub> = δ<sub>grip</sub> − δ<sub>jaw</sub>**
 
 Substituting the design values:
 
-\[
-\delta_{\max}
-=
-\frac{350(0.20)^3}{3EI}
--
-\frac{2333(0.03)^2(3(0.20)-0.03)}{6EI}
-\]
+**δ<sub>max</sub> = [350(0.20)<sup>3</sup> / 3EI] − [2333(0.03)<sup>2</sup>(3(0.20) − 0.03) / 6EI]**
 
-\[
-\delta_{\max}
-=
-\frac{0.9333}{EI}
--
-\frac{0.1995}{EI}
-\]
+Simplifying:
 
-\[
-\delta_{\max}
-=
-\frac{0.7338}{EI}
-\]
+**δ<sub>max</sub> = 0.9333/EI − 0.1995/EI**
 
-So the maximum deflection of the handle is:
+Therefore:
 
-\[
-\delta_{\max} = \frac{0.7338}{EI}
-\]
+**δ<sub>max</sub> = 0.7338/EI**
 
+So the maximum vertical deflection of the handle is:
+
+**δ<sub>max</sub> = 0.7338/EI**
 ---
 
 #### Acknowledgements 
