@@ -135,7 +135,6 @@ The maximum elastic deflection occurs at the **grip end of the handle**, not at 
 ---
 
 ### Deflection Analysis Using a Beam Table
-### Deflection Analysis Using a Beam Table
 
 I used the standard cantilever beam deflection table. The hand force was modeled as a point load applied at the free end of a cantilever beam.
 
@@ -143,7 +142,7 @@ For a cantilever beam with a point load at the free end, the maximum deflection 
 
 **δ<sub>grip</sub> = PL<sup>3</sup> / 3EI**
 
-The force from the nut is applied closer to the hinge at **x = a**, not at the free end. I used the same cantilever beam case over the shorter length **a**, then extended the slope from the nut location to the grip end.
+The force from the nut is applied closer to the hinge at **x = a**, not at the free end. I used the same cantilever beam case over the length **a**, then extended the slope from the nut location to the grip end.
 
 The deflection at the grip caused by the nut force is:
 
@@ -168,10 +167,144 @@ Therefore:
 So the maximum vertical deflection of the handle is:
 
 **δ<sub>max</sub> = 0.7338/EI**
+
+---
+
+### Allowable Deflection
+
+The requirement says that the vertical elastic deflection must be below 2% of the handle length.
+
+**δ<sub>allow</sub> = 0.02L**
+
+Since the handle length is **L = 0.20 m**:
+
+**δ<sub>allow</sub> = 0.02(0.20)**
+
+**δ<sub>allow</sub> = 4.0 mm**
+
+This:
+
+**0.004 m\(\ge \)δ<sub>max</sub> = 0.7338 / EI**
+
+**EI ≥ 0.7338 / 0.004**
+
+**EI ≥ 183.5 N·m<sup>2</sup>**
+
+So the handle needs a flexural rigidity of at least:
+
+**EI<sub>min</sub> = 183.5 N·m<sup>2</sup>**
+
+---
+
+### Selected Beam Design
+
+For the final beam design, I selected a **hollow cylindrical tube** made from **AZ80 magnesium alloy**.
+
+A hollow cylinder is a good  choice for a nutcracker handle because it is lightweight, comfortable to grip, and resists bending and twisting. Magnesium alloy is also good because it has a low specific weight while still having some elastic stiffness.
+
+From the material table:
+
+- Material: **AZ80 magnesium alloy**
+- Modulus of elasticity: **E = 45 GPa**
+- Specific weight: **1800 kg/m<sup>3</sup>**
+
+The selected tube dimensions are: (from trial and error)
+
+- Outer diameter: **D<sub>o</sub> = 25 mm**
+- Wall thickness: **t = 1 mm**
+- Inner diameter: **D<sub>i</sub> = 23 mm**
+
+For a hollow circular tube:
+
+**I = π(D<sub>o</sub><sup>4</sup> − D<sub>i</sub><sup>4</sup>) / 64**
+
+Using the chosen dimensions:
+
+**I ≈ 5.44 × 10<sup>−9</sup> m<sup>4</sup>**
+
+The flexural rigidity is:
+
+**EI = (45 × 10<sup>9</sup>)(5.44 × 10<sup>−9</sup>)**
+
+**EI ≈ 244.71 N·m<sup>2</sup>**
+
+This is greater than the required stiffness:
+
+**244.71 N·m<sup>2</sup> > 183.5 N·m<sup>2</sup>**
+
+---
+
+### Predicted Deflection
+
+Using:
+
+**δ<sub>max</sub> = 0.7338 / EI** and **EI ≈ 244.71 N·m<sup>2</sup>**
+
+the predicted maximum deflection is:
+
+**δ<sub>max</sub> = 0.7338 / 244.71**
+
+**δ<sub>max</sub> = 0.0030 m**
+
+**δ<sub>max</sub> = 3.00 mm**
+
+As a percentage of the 200 mm handle length:
+
+**3.00 / 200 × 100 = 1.5%**
+
+As: **1.5% < 2.0%**
+
+the design passes the deflection requirement.
+
+---
+
+### Mass Estimate
+
+The cross-sectional area of the hollow tube is:
+
+**A = π(D<sub>o</sub><sup>2</sup> − D<sub>i</sub><sup>2</sup>) / 4**
+
+Using the above tube dimensions:
+
+**A ≈ 7.54 × 10<sup>−5</sup> m<sup>2</sup>**
+
+Using the magnesium density from the table:
+
+**ρ ≈ 1800 kg/m<sup>3</sup>**
+
+the mass of one handle is:
+
+**m = ρAL**
+
+**m = (1800)(7.54 × 10<sup>−5</sup>)(0.20)**
+
+**m ≈ 0.0271 kg**
+
+**m ≈ 27.1 g**
+
+So each handle would weigh approximately **28 g**.
+
+---
+
+### Final Beam Design Conclusion
+
+The selected beam design is a **25 mm outer diameter, 1.9 mm wall thickness hollow cylindrical tube made from AZ80 magnesium alloy**.
+
+This design gives:
+
+- Maximum predicted deflection: **3.67 mm**
+- Percent of handle length: **1.5%**
+- Allowable deflection: **4.0 mm**
+- Required flexural rigidity: **183.5 N·m<sup>2</sup>**
+- Actual flexural rigidity: **244.71 N·m<sup>2</sup>**
+- Estimated mass: **28 g per handle**
+
+So, the hollow magnesium tube keeps the handle deflection below 2% of its length while remaining lightweight and practical for a hand-operated nutcracker.
+
 ---
 
 #### Acknowledgements 
 
-I used ChatGPT to help edit my GitHub materials as well as the aforementioned article for values.
+I used ChatGPT to help edit my GitHub materials and formating as well as the aforementioned article for values. As well as the apenddix of the textboook. 
 
 ---
