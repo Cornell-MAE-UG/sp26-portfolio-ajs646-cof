@@ -206,7 +206,7 @@ For the final beam design, I selected a **hollow cylindrical tube** made from **
 A hollow cylinder is a good  choice for a nutcracker handle because it is lightweight, comfortable to grip, and resists bending and twisting. Magnesium alloy is also good because it has a low specific weight while still having some elastic stiffness.
 
 <p align="center">
-  <img src="{{ '/assets/images/material-table.jpeg' | relative_url }}" alt="Material Property table" width="300">
+  <img src="{{ '/assets/images/material-table.jpeg' | relative_url }}" alt="Material Property table" width="600">
 </p>
 
 From the material table:
@@ -240,7 +240,7 @@ This is greater than the required stiffness:
 **244.71 N·m<sup>2</sup> > 183.5 N·m<sup>2</sup>**
 
 <p align="center">
-  <img src="{{ '/assets/images/hollow-cylinder-beam.png' | relative_url }}" alt="Hollow cylindrical nutcracker handle" width="500">
+  <img src="{{ '/assets/images/hollow-cylinder-beam.jpeg' | relative_url }}" alt="Hollow cylindrical nutcracker handle" width="500">
 </p>
 
 ---
