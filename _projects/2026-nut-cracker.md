@@ -103,11 +103,6 @@ Additionally, having the handles positioned about 12.45 cm apart would make the 
 
 ---
 
-_projects/2026-nut-cracker.md
-
-
----
-
 <details markdown="1">
 
 <summary><strong>Continue: Modeling the Handles as Flexible Beams</strong></summary>
@@ -139,7 +134,67 @@ The maximum elastic deflection occurs at the **grip end of the handle**, not at 
 
 ---
 
-</details>
+### Deflection Analysis Using a Beam Table
+
+I used the this cantilever beam deflection table. The grip force was modeled as a point load applied at the free end of a cantilever beam.
+
+For a cantilever beam with a point load at the free end, the maximum deflection is:
+
+\[
+\delta_grip = \frac{PL^3}{3EI}
+\]
+
+The force from the nut is applied closer to the hinge at \(x=a\). So I used the same cantilever beam case over the shorter length \(a\), then extended the slope from the nut location to the grip end.
+
+Thus the deflection at the grip caused by the nut force is:
+
+\[
+\delta_jaw = \frac{Qa^2(3L-a)}{6EI}
+\]
+
+Using the FBD from above
+
+\[
+\delta_{\max} = \delta_grip- \delta_jaw
+\]
+
+\[
+\delta_{\max}
+=
+\frac{PL^3}{3EI}
+-
+\frac{Qa^2(3L-a)}{6EI}
+\]
+
+Substituting the design values:
+
+\[
+\delta_{\max}
+=
+\frac{350(0.20)^3}{3EI}
+-
+\frac{2333(0.03)^2(3(0.20)-0.03)}{6EI}
+\]
+
+\[
+\delta_{\max}
+=
+\frac{0.9333}{EI}
+-
+\frac{0.1995}{EI}
+\]
+
+\[
+\delta_{\max}
+=
+\frac{0.7338}{EI}
+\]
+
+So the maximum deflection of the handle is:
+
+\[
+\delta_{\max} = \frac{0.7338}{EI}
+\]
 
 ---
 
