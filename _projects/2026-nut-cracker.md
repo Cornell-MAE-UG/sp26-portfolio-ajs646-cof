@@ -223,6 +223,11 @@ The selected tube dimensions are: (from trial and error)
 
 For a hollow circular tube:
 
+<img 
+  src="{{ '/assets/images/hollow-cylinder-beam.jpeg' | relative_url }}" 
+  alt="Hollow cylindrical nutcracker handle design" 
+  style="float: right; width: 360px; max-width: 45%; margin: 0 0 20px 30px;">
+  
 **I = π(D<sub>o</sub><sup>4</sup> − D<sub>i</sub><sup>4</sup>) / 64**
 
 Using the chosen dimensions:
@@ -238,10 +243,6 @@ The flexural rigidity is:
 This is greater than the required stiffness:
 
 **244.71 N·m<sup>2</sup> > 183.5 N·m<sup>2</sup>**
-
-<p align="center">
-  <img src="{{ '/assets/images/hollow-cylinder-beam.jpeg' | relative_url }}" alt="Hollow cylindrical nutcracker handle" width="500">
-</p>
 
 ---
 
