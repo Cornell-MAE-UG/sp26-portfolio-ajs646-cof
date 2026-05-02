@@ -135,6 +135,9 @@ The maximum elastic deflection occurs at the **grip end of the handle**, not at 
 ---
 
 ### Deflection Analysis Using a Beam Table
+<p align="center">
+  <img src="{{ '/assets/images/beam-table.png' | relative_url }}" alt="Hollow cylindrical nutcracker handle design" width="500">
+</p>
 
 I used the standard cantilever beam deflection table. The hand force was modeled as a point load applied at the free end of a cantilever beam.
 
@@ -231,6 +234,10 @@ The flexural rigidity is:
 This is greater than the required stiffness:
 
 **244.71 N·m<sup>2</sup> > 183.5 N·m<sup>2</sup>**
+
+<p align="center">
+  <img src="{{ '/assets/images/hollow-cylinder-beam.png' | relative_url }}" alt="Hollow cylindrical nutcracker handle" width="500">
+</p>
 
 ---
 
