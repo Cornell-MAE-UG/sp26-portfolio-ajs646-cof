@@ -184,7 +184,7 @@ Since the handle length is **L = 0.20 m**:
 
 So:
 
-**0.004 m <= δ<sub>max</sub> = 0.7338 / EI**
+**0.004 m ≤ δ<sub>max</sub> = 0.7338 / EI**
 
 **EI ≥ 0.7338 / 0.004**
 
